@@ -17,6 +17,7 @@ public class Main {
         } else {
             System.out.println("Произошла ошибка!");
         }
+        System.out.println(response.asPrettyString());
 
     }
 }
